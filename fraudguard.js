@@ -10,13 +10,7 @@ function checkIP(ip){
         var url = 'https://' + user + ':' + pass + '@api.fraudguard.io/ip/'+ip;
         request({url: url}, function (error, response, body) {
             if (error) reject(Error("Error using fraudguard: "+error));
-            if (body){
-                try {
-                    job = JSON.parse(body);
-                    resolve(JSON.parse(job));
-                } catch (e) {
-                    reject(Error("Error using Fraudguard (check credentials provided): "+body+"("+e+")"));
-                }
+            if (body) resolve(JSON.parse(job));
             }
         });
     });

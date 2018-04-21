@@ -13,8 +13,8 @@ const fraudguard = require('fraudguard');
 //fraudguard.setUser("<YOUR API USERNAME>")
 //fraudguard.setPassword("<YOUR API PASSWORD>")
 
-fraudguard.setUser("STb8YHnOQEoI7B6S")
-fraudguard.setPassword("Uc0ULPyymtzwDlpm")
+fraudguard.setUser("")
+fraudguard.setPassword("")
 
 // Use checkIP(<IP>) to check that IP against fraudguard.io
 // A promise will be returned
