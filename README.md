@@ -10,8 +10,8 @@ Use Node to check for malicious IPs in [fraudguard](https://fraudguard.io/)
 ```javascript
 const fraudguard = require('fraudguard');
 
-fraudguard.setUser("")
-fraudguard.setPassword("")
+fraudguard.setUser("<YOU USER>")
+fraudguard.setPassword("<YOUR PASSWORD>")
 
 // Use checkIP(<IP>) to check that IP against fraudguard.io
 // A promise will be returned
