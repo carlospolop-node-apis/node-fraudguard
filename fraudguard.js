@@ -11,7 +11,6 @@ function checkIP(ip){
         request({url: url}, function (error, response, body) {
             if (error) reject(Error("Error using fraudguard: "+error));
             if (body) resolve(JSON.parse(job));
-            }
         });
     });
     return promise;
