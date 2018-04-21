@@ -1,6 +1,6 @@
 {
   "name": "fraudguard",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "fraudguard.io API",
   "main": "fraudguard.js",
   "scripts": {
