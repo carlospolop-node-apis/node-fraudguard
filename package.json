@@ -1,0 +1,34 @@
+{
+  "name": "fraudguard",
+  "version": "1.0.0",
+  "description": "fraudguard.io API",
+  "main": "fraudguard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlospolop/fraudguard_api.git"
+  },
+  "keywords": [
+    "fraudguard",
+    "api",
+    "spam",
+    "proxy",
+    "tor",
+    "honeypot",
+    "botnet",
+    "ddos",
+    "malware",
+    "malicious"
+  ],
+  "author": "Carlos Polop <carlospolop@gmail.com> (https://malwareworld.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlospolop/fraudguard_api/issues"
+  },
+  "homepage": "https://github.com/carlospolop/fraudguard_api#readme",
+  "dependencies": {
+    "request": "^2.85.0"
+  }
+}
