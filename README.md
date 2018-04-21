@@ -1,4 +1,4 @@
-# Node Fraudguard Api
+# Node Fraudguard
 
 Use Node to check for malicious IPs in [fraudguard](https://fraudguard.io/)
 

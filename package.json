@@ -1,6 +1,6 @@
 {
   "name": "fraudguard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fraudguard.io API",
   "main": "fraudguard.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carlospolop/fraudguard_api.git"
+    "url": "git+https://github.com/carlospolop-node-apis/node-fraudguard.git"
   },
   "keywords": [
     "fraudguard",
@@ -25,9 +25,9 @@
   "author": "Carlos Polop <carlospolop@gmail.com> (https://malwareworld.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carlospolop/fraudguard_api/issues"
+    "url": "https://github.com/carlospolop-node-apis/node-fraudguard7issues"
   },
-  "homepage": "https://github.com/carlospolop/fraudguard_api#readme",
+  "homepage": "https://github.com/carlospolop-node-apis/node-fraudguard#readme",
   "dependencies": {
     "request": "^2.85.0"
   }
